@@ -17,7 +17,7 @@ class ProductController extends Controller
     {
         $data = Product::query()->paginate(5);
         return view(self::PATH_VIEW . __FUNCTION__,compact('data'));
-        //
+        //123
     }
 
     /**
